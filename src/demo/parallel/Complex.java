@@ -93,4 +93,12 @@ public class Complex {
     public double lengthSQ() {
         return re * re + im * im;
     }
+
+    public Complex conjugate() {
+        return new Complex(this.re, -this.im);
+    }
+
+    public Complex square() {
+        return this.times(this);
+    }
 }
