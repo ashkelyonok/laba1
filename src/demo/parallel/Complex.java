@@ -101,4 +101,12 @@ public class Complex {
     public Complex square() {
         return this.times(this);
     }
+
+    public double getRe() {
+        return re;
+    }
+
+    public double getIm() {
+        return im;
+    }
 }
